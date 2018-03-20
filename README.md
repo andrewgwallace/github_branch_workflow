@@ -123,7 +123,7 @@ $ git pull origin add-nav
 Now the updated master is ready to be pushed to origin
 
 ```
-$ git push
+$ git push origin master
 ```
 
 This will close the pull request on GitHub.
