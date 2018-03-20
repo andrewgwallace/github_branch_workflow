@@ -49,7 +49,7 @@ $ git push -u origin master
 Now we have our centralized production master on GitHub.
 
 #### GITHUB GUI
-I make Penelope a collaborator on the GitHub repo...
+I make Penelope a collaborator on the GitHub repo:
 
 ![alt text](co.png "Add Collaborator")
 
@@ -92,7 +92,7 @@ $ git add -A
 $ git commit -m "Add navigation menu"
 ```
 
-I’m finished with my work and am ready to have it pulled into the master branch. I push my add_nav branch to GitHub, setting the upstream for this branch with -u...
+I’m finished with my work and am ready to have it pulled into the master branch. I push my `add_nav` branch to GitHub, setting the upstream for this branch with `-u`...
 
 ```
 $ git push -u origin add_nav
@@ -107,10 +107,10 @@ $ git push -u origin add_nav
 
 ![alt text](pull3.png "Create Repo")
 
-Penelope gets my request and stops what she is doing. She is going to merge my add_nav into the master branch on GitHub (the central repository). If there aren't any conflicts, she can use the GitHub GUI, but running things locally will allow her to check and test the code.
+Penelope gets my request and stops what she is doing. She is going to merge my `add_nav` into the master branch on GitHub (the central repository). If there aren't any conflicts, she can use the GitHub GUI, but running things locally will allow her to check and test the code.
 
 #### PENELOPE'S MACHINE
-First she needs to checkout her local master, update it (pull the GitHub master into her local master), and then pull the add_nav from GitHub into her newly updated master.
+First she needs to checkout her local master, update it (pull the GitHub master into her local master), and then pull the `add_nav` from GitHub into her newly updated master.
 
 ```
 $ git checkout master
